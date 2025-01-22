@@ -26,10 +26,7 @@ app.use(express.json());
 app.use(cors())
 app.use(errorHandler)
 
-//routes
- app.get('/', (req,res) => {
-    res.send('Hello from server!')
- })
+
 
 //port
 const PORT = 8080 || process.env.PORT
